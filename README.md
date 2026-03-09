@@ -1,25 +1,49 @@
-Hi! I am Ankit. This repository contains all the tasks I have completed during my Web Development Internship at CodeAlpha.
+# CodeAlpha Web Development Internship Tasks
 
-I have focused on making these projects clean, functional, and user-friendly.
+Hi! I am **Ankit Pokhriyal**. This repository contains the projects I completed during my Web Development Internship at **CodeAlpha**. I have focused on creating clean, responsive, and functional web applications.
 
-Projects Overview
+## 🚀 Projects Overview
 
-Here are the 4 main projects included in this repository:
+I have successfully completed the following 3 tasks:
 
-Personal Portfolio
+### 1. Personal Portfolio
+A professional website designed to showcase my biography, skills, and projects. It is fully responsive and works on all screen sizes.
+* **Tech used:** HTML5, CSS3, JavaScript.
+* **Key Features:** Smooth scrolling, contact section, and project gallery.
 
-A professional website to showcase my skills, projects, and bio.
+### 2. Basic Calculator
+A fully functional digital calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+* **Tech used:** HTML5, CSS3 (Grid/Flexbox), JavaScript.
+* **Key Features:** Clean UI, error handling, and responsive design.
 
-Tech used: HTML, CSS, and JavaScript.
+### 3. Image Gallery
+An interactive gallery that displays images in a beautiful grid layout. It allows users to view images clearly and switch between them.
+* **Tech used:** HTML5, CSS3, JavaScript.
+* **Key Features:** Hover effects, lightbox view, and mobile-friendly layout.
 
-Calculator
+---
 
-A fully functional digital calculator that performs basic math operations.
+## 🔗 Live Previews
 
-Tech used: HTML, CSS, and JavaScript.
+You can view the live version of each project by clicking the links below:
 
-Image Gallery
+* **🌐 Portfolio:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_PortfolioSite/]
+* **🔢 Calculator:** []
+* **🖼️ Image Gallery:** [Paste Your GitHub Pages Link Here]
+* **🚀 [4th Project]:** [Paste Your GitHub Pages Link Here]
 
-An interactive gallery to display images in a beautiful grid layout.
+---
 
-Tech used: HTML, CSS (Flexbox/Grid), and JavaScript.
+## 📂 How to Run Locally
+
+1. Clone the repository: 
+   `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
+2. Navigate to any project folder.
+3. Open the `index.html` file in your browser.
+
+---
+
+### Contact
+**Name:** Mayank  
+**Internship Provider:** CodeAlpha  
+**Role:** Web Development Intern
