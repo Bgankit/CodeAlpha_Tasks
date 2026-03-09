@@ -28,9 +28,8 @@ An interactive gallery that displays images in a beautiful grid layout. It allow
 You can view the live version of each project by clicking the links below:
 
 * **🌐 Portfolio:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_PortfolioSite/]
-* **🔢 Calculator:** []
+* **🔢 Calculator:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_Calculator/]
 * **🖼️ Image Gallery:** [Paste Your GitHub Pages Link Here]
-* **🚀 [4th Project]:** [Paste Your GitHub Pages Link Here]
 
 ---
 
