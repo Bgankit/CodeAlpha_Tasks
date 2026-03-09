@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visuals Gallery</title>
+    <link rel="stylesheet" href="Gallery.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>Digital Art Collection</h2>
+        <ul class="tags">
+            <li class="tag active" onclick="sortGallery('all')">Show All</li>
+            <li class="tag" onclick="sortGallery('neon')">Neon</li>
+            <li class="tag" onclick="sortGallery('abstract')">Abstract</li>
+            <li class="tag" onclick="sortGallery('minimal')">Minimal</li>
+        </ul>
+    </nav>
+
+    <div class="masonry-wrapper">
+        
+        <div class="brick" data-type="neon">
+            <img src="https://images.unsplash.com/photo-1563089145-599997674d42" alt="Neon City">
+            <div class="overlay">
+                <span>Cyberpunk City</span>
+            </div>
+        </div>
+
+        <div class="brick" data-type="abstract">
+            <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab" alt="Abstract Paint">
+            <div class="overlay">
+                <span>Fluid Art</span>
+            </div>
+        </div>
+
+        <div class="brick" data-type="minimal">
+            <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85" alt="Minimal Desk">
+            <div class="overlay">
+                <span>Clean Desk</span>
+            </div>
+        </div>
+
+        <div class="brick" data-type="neon">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Neon Sign">
+            <div class="overlay">
+                <span>Night Life</span>
+            </div>
+        </div>
+
+        <div class="brick" data-type="abstract">
+            <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853" alt="Abstract Waves">
+            <div class="overlay">
+                <span>Blue Waves</span>
+            </div>
+        </div>
+         <div class="brick" data-type="minimal">
+            <img src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55" alt="Minimal Leaf">
+            <div class="overlay">
+                <span>Green Leaf</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="preview-modal" class="modal-bg">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img id="full-image" src="">
+            <div class="nav-btn left-arrow" onclick="navigate(-1)">&#10094;</div>
+            <div class="nav-btn right-arrow" onclick="navigate(1)">&#10095;</div>
+        </div>
+    </div>
+
+    <script src="Gallery.js"></script>
+</body>
+</html>

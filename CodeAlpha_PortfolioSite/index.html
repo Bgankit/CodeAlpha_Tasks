@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit | Student Portfolio</title>
+    <link rel="stylesheet" href="Portfolio_Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="sidebar">
+        <div class="profile">
+            <div class="profile-img">
+                <i class="fas fa-user-astronaut"></i>
+            </div>
+            <h2>Ankit</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="footer-social">
+            <a href="Https://github.com/Bgankit"><i class="fab fa-github"></i></a>
+            <a href="Https://www.linkedin.com/in/ankit-pokhriyal-365293246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </header>
+
+    <main class="content">
+        
+        <section id="home" class="section home-section">
+            <h3>Welcome to my world</h3>
+            <h1>I'm <span class="text-highlight">Ankit</span></h1>
+            <p>I am a <span class="typing-text"></span></p>
+            <a href="#portfolio" class="btn">View My Projects</a>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="heading">About Me</h2>
+            
+            <div class="about-flex-container">
+                <div class="about-text">
+                    <p>Hi, I'm Ankit. I am a BCA student with a big interest in building things for the web. I love coding and I spend most of my time learning how to make websites look good and work smoothly.</p>
+                    
+                    <br>
+                    <h4>What I Know</h4>
+                    <p>I have been working on my coding skills and I am comfortable with:</p>
+                    <ul style="margin-left: 20px; margin-bottom: 15px;">
+                        <li><strong>Languages:</strong> HTML, CSS, JavaScript, React and Python.</li>
+                        <li><strong>Design Tools:</strong> Bootstrap and Tailwind CSS.</li>
+                        <li><strong>Other Tools:</strong> Git, GitHub, and VS Code.</li>
+                    </ul>
+                    
+                    <h4>My Experience</h4>
+                    <p>Apart from coding, I also like to help out in my community. I was a volunteer at the 35th National Games and I have received the "Yuva Aapda Mitra" certificate from the Chief Minister of Uttarakhand.</p>
+                    
+                    <br>
+                    <h4>My Goal</h4>
+                    <p>Right now, I am looking for opportunities to learn more, work on new projects, and grow as a developer. I’m always ready to learn new technologies and take on small challenges.</p>
+                    
+                    <div class="resume-box" style="margin-top: 25px;">
+                        <a href="ankit_resume_2026.pdf" target="_blank" class="btn outline-btn"><i class="fas fa-file-pdf"></i> Download Resume</a>
+                    </div>
+                </div>
+                
+                <div class="about-skills">
+                    <h3>My Skills</h3>
+                    <div class="skills-container">
+                        <span class="skill-tag">HTML5 & CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">SEO</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2 class="heading">My Projects</h2>
+            <div class="gallery">
+                
+                <div class="work-item">
+                    <div class="work-img">
+                        <i class="fas fa-photo-video"></i>
+                    </div>
+                    <div class="work-info">
+                        <h3>Visual Gallery</h3>
+                        <p>A Masonry layout image collection with dark mode styling.</p>
+                        <a href="friend-gallery/index.html" target="_blank">View Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-img">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="work-info">
+                        <h3>iOS Calculator</h3>
+                        <p>A replica of the iPhone calculator using pure JavaScript switch-cases.</p>
+                        <a href="friend-calc/index.html" target="_blank">View Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-img">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div class="work-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>A clean UI concept for checking weather conditions.</p>
+                        <a href="#">View Code <i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="heading">Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" class="input-field" placeholder="Your Name" required>
+                <input type="email" class="input-field" placeholder="Your Email" required>
+                <textarea class="input-field textarea" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="Portfolio_Logic.js"></script>
+</body>
+</html>

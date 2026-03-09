@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="Cal_Style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="calc-body">
+            <div class="screen">
+                <div id="prev-operand"></div>
+                <div id="curr-operand">0</div>
+            </div>
+
+            <div class="calc-row">
+                <button class="btn action-btn" onclick="clearDisplay()">AC</button>
+                <button class="btn action-btn" onclick="deleteNumber()">DEL</button>
+                <button class="btn operator-btn" onclick="chooseOperation('%')">%</button>
+                <button class="btn operator-btn" onclick="chooseOperation('/')">÷</button>
+            </div>
+            
+            <div class="calc-row">
+                <button class="btn num-btn" onclick="appendNumber('7')">7</button>
+                <button class="btn num-btn" onclick="appendNumber('8')">8</button>
+                <button class="btn num-btn" onclick="appendNumber('9')">9</button>
+                <button class="btn operator-btn" onclick="chooseOperation('*')">×</button>
+            </div>
+
+            <div class="calc-row">
+                <button class="btn num-btn" onclick="appendNumber('4')">4</button>
+                <button class="btn num-btn" onclick="appendNumber('5')">5</button>
+                <button class="btn num-btn" onclick="appendNumber('6')">6</button>
+                <button class="btn operator-btn" onclick="chooseOperation('-')">-</button>
+            </div>
+
+            <div class="calc-row">
+                <button class="btn num-btn" onclick="appendNumber('1')">1</button>
+                <button class="btn num-btn" onclick="appendNumber('2')">2</button>
+                <button class="btn num-btn" onclick="appendNumber('3')">3</button>
+                <button class="btn operator-btn" onclick="chooseOperation('+')">+</button>
+            </div>
+
+            <div class="calc-row">
+                <button class="btn num-btn zero" onclick="appendNumber('0')">0</button>
+                <button class="btn num-btn" onclick="appendNumber('.')">.</button>
+                <button class="btn equal-btn" onclick="compute()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="Cal_Logic.js"></script>
+</body>
+</html>
