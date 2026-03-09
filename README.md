@@ -31,18 +31,10 @@ You can view the live version of each project by clicking the links below:
 * **🔢 Calculator:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_Calculator/]
 * **🖼️ Image Gallery:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_ImageGallery/]
 
----
-
-## 📂 How to Run Locally
-
-1. Clone the repository: 
-   `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
-2. Navigate to any project folder.
-3. Open the `index.html` file in your browser.
 
 ---
 
 ### Contact
-**Name:** Mayank  
+**Name:** Ankit pokhriyal    
 **Internship Provider:** CodeAlpha  
-**Role:** Web Development Intern
+**Role:** fronted Development Intern
