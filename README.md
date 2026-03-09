@@ -29,7 +29,7 @@ You can view the live version of each project by clicking the links below:
 
 * **🌐 Portfolio:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_PortfolioSite/]
 * **🔢 Calculator:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_Calculator/]
-* **🖼️ Image Gallery:** [Paste Your GitHub Pages Link Here]
+* **🖼️ Image Gallery:** [https://bgankit.github.io/CodeAlpha_Tasks/CodeAlpha_ImageGallery/]
 
 ---
 
